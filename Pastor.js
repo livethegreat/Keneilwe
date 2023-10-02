@@ -299,10 +299,10 @@ function FAQ2() {
            <div id="burger">
            
            <div id="scroll"><ul>
-           <a href="index.html"><li id="sat" onclick="closing()"><p id="sub">Home</p></li></a>
-           <a href="about.html"><li id="sat" onclick="closing()"><p id="sub">About</li></a>
-           <a href="blog.html"><li id="sat" onclick="closing()"><p id="sub">Blog</li></a>
-           <a href="contact.html"><li id="sat" onclick="closing()"><p id="sub">Contact</p></li></a> <br><br>
+           <a href="index.html"><li id="sat" onclick="closing()"><p id="sat">Home</p></li></a>
+           <a href="about.html"><li id="sat" onclick="closing()"><p id="sat">About</li></a>
+           <a href="blog.html"><li id="sat" onclick="closing()"><p id="sat">Blog</li></a>
+           <a href="contact.html"><li id="sat" onclick="closing()"><p id="sat">Contact</p></li></a> <br><br>
 
            <div id="hommie"><a href="checkout.html"><button><p id="follow-el">Buy now</p></button></a></div>
            
