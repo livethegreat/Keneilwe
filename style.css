@@ -927,13 +927,15 @@ input{
 }
 
 #forming{
-    margin-top: 45%;
-    width: 80%;
+    margin: auto;
+    margin-top: 25%;
+    
 }
 
 table{
     margin: auto;
-    width: 50%;
+    width: 70%;
+    margin-left: 5%;
     
   
    
@@ -1809,7 +1811,7 @@ textarea{
 #forming{
 
     margin: auto;
-    margin-top: 25%;
+    margin-top: 10%;
 
    
 }
@@ -2432,7 +2434,7 @@ margin-left: 0;
 
 #forming{
     margin: auto;
-    margin-top: 15%;
+    margin-top: 8%;
     margin-bottom: 3%;
     width: 50%;
   
