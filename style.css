@@ -1,0 +1,2504 @@
+
+body,html{
+    margin: 0;
+    padding: 0;
+   overflow-x: hidden;
+   background-color: #F8F9F5;
+
+}
+
+
+
+
+@font-face {
+    src: url(Lora/Lora-Medium.ttf);
+    font-family: Lora-Med;
+  }
+
+  @font-face {
+    src: url(Lora/Lora-Bold.ttf);
+    font-family: Lora-Bold;
+  }
+
+  @font-face {
+    src: url(Lora/Lora-Regular.ttf);
+    font-family: Lora-Reg;
+  }
+
+
+  @font-face {
+    src: url(Rubik/static/Rubik-Light.ttf);
+    font-family: Rubik-Light;
+  }
+
+
+  @font-face {
+    src: url(Rubik/static/Rubik-Regular.ttf);
+    font-family: Rubik-Reg;
+  }
+
+  @font-face {
+    src: url(Rubik/static/Rubik-Medium.ttf);
+    font-family: Rubik-Med;
+  }
+
+  @font-face {
+    src: url(Rubik/static/Rubik-SemiBold.ttf);
+    font-family: Rubik-Bold;
+  }
+
+  @font-face {
+    src: url(Rubik/static/Rubik-Italic.ttf);
+    font-family: Rubik-italic;
+  }
+
+  @font-face {
+    src: url(Satisfy/Satisfy-Regular.ttf);
+    font-family: Satisfy-Regular;
+  }
+
+
+
+
+
+  @media only screen and (min-width: 200px) {
+
+#header{
+    position: fixed;
+    margin: auto;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 1px #8a8a8a;
+    z-index: 1;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+#logo{
+    font-family: Satisfy-Regular;
+    font-size: 5.5vw;
+   margin-left: 5%;
+}
+
+#header ion-icon{
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    
+     font-size:10vw;
+     text-align: center;
+  
+     
+ }
+ 
+
+#menu{
+   
+    
+    width: 50%;  
+    transition: width 1s;
+    float: right;
+   
+    
+}
+
+
+#home{
+    
+    background-color: #F8F9F5;
+   margin: auto;
+   margin-top: 45%;
+   text-align: center;
+   padding-bottom: 15%;
+}
+
+
+
+#first{
+    
+    background-color: #F8F9F5;
+   margin: auto;
+   margin-top: 35%;
+   text-align: center;
+   margin-bottom: 20%;
+ 
+}
+
+#home-el{
+    background-color: #F8F9F5;
+   margin: auto;
+   text-align: center;
+   padding-bottom: 10%;
+}
+
+#hommie{
+    background-color: #F8F9F5;
+   margin: auto;
+   text-align: center;
+   padding-bottom: 15%;
+}
+
+
+
+#home img{
+  
+    margin-top: 10%;
+    width: 90%;
+}
+
+#first img{
+  
+    margin-top: 0;
+    width: 90%;
+}
+
+#home-el img{
+    
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 90%;
+}
+
+#trend{
+    text-align: center;
+    color: #2c2b2b;
+    font-size: 10vw;
+    font-family: Lora-Med;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#troll{
+    text-align: center;
+    color: #2c2b2b;
+    font-size: 10vw;
+    font-family: Lora-Med;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#trending{
+    margin-top: 15%;
+    text-align: center;
+    color: #2c2b2b;
+    font-size: 10vw;
+    font-family: Lora-Med;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+span{
+    color: #fff;
+    background-color: #005b4a;
+    padding-left: 1%;
+    padding-right: 1%;
+  line-height: 150%;
+}
+
+#span-el{
+    color: #2c2b2b;
+    padding-left: 1%;
+    padding-right: 1%;
+  line-height: 150%;
+    background-color: #F8F9F5;
+}
+
+
+#follow{
+    font-family: Rubik-Reg;
+    font-size: 5vw;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #000000;
+}
+
+#fall{
+    font-family: Rubik-Reg;
+    font-size: 5vw;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #000000;
+}
+
+#sub{
+    font-family: Rubik-Reg;
+    font-size: 5vw;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #000000;
+}
+
+#sat{
+    font-family: Rubik-Reg;
+    font-size: 5.5vw;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #000000;
+}
+
+
+
+#oil{
+    font-family: Rubik-Reg;
+    font-size: 5vw;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #000000;
+    border-style: solid;
+    border-width: thin;
+    border-left: transparent;
+    border-right: transparent;
+    border-top: transparent;
+    padding-bottom: 12%;
+}
+
+
+#rob{
+    font-family: Rubik-Reg;
+    font-size: 6vw;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #2c2b2b;
+    font-family: Rubik-Bold;
+
+}
+
+#marine{
+    font-family: Rubik-Reg;
+    font-size: 5vw;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #000000;
+    border-style: solid;
+    border-width: thin;
+    padding: 5%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    border-left: transparent;
+    border-right: transparent;
+    border-color: #c86561;
+    margin-bottom: 10%;
+}
+
+#marine li{
+  color: #c86561;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+#marine li p{
+    
+    color: #000000;
+}
+
+#super{
+    font-family: Rubik-Reg;
+    font-size: 5vw;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #000000;
+}
+
+#support{
+    font-family: Rubik-italic;
+    font-size: 5vw;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    color: #c86561;
+}
+
+
+
+
+#home button{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 50%;
+    background-color: #c86561;
+    border: none;
+    
+}
+
+#home-el button{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 50%;
+    background-color: #c86561;
+    border: none;
+    
+}
+
+#hommie button{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 50%;
+    background-color: #c86561;
+    border: none;
+    
+}
+
+#house button{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 50%;
+    background-color: #c86561;
+    border: none;
+    
+}
+
+#follow-el{
+    font-size: 4.5vw;
+    font-family: Rubik-Med;
+    color: #fff;
+}
+
+#green{
+    overflow: hidden;
+    text-align: center;
+    padding-top: 5%;
+    background-color: #dbe9d9;
+    padding-bottom: 5%;
+}
+
+#grow{
+    overflow: hidden;
+    text-align: center;
+    padding-top: 5%;
+    background-color: #fbfcfa;
+    padding-bottom: 20%;
+}
+
+#grew{
+    overflow: hidden;
+    text-align: center;
+    padding-top: 5%;
+    background-color: #F8F9F5;
+    padding-bottom: 15%;
+}
+
+#growth{
+    overflow: hidden;
+    text-align: center;
+    padding-top: 5%;
+    background-color: #fbfcfa;
+    padding-bottom: 15%;
+}
+
+#green img{
+
+    width: 80%;
+    
+}
+
+#grow img{
+margin-top: 5%;
+    width: 90%;
+    
+}
+
+#grew img{
+    margin-top: 5%;
+        width: 90%;
+        
+    }
+
+#growth img{
+    margin-top: 5%;
+        width: 90%;
+        
+    }
+
+
+#fellow{
+   margin-top: 15%;
+    font-family: Lora-Bold;
+    font-size: 7vw;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #8a8a8a;
+}
+
+#second{
+    
+     font-family: Lora-Reg;
+     font-size: 7vw;
+     margin-left: 5%;
+     margin-right: 5%;
+     color: #2c2b2b;
+ }
+
+
+#green ul{
+    overflow: hidden;
+    padding: 0;
+}
+
+#green li{
+list-style: none;
+    text-align: left;
+    margin-bottom: 10%;
+ 
+}
+
+#green ion-icon{
+    font-size: 6vw;
+    margin-right: 5%;
+   float: left;
+    
+    color: #c86561;
+}
+
+
+#blue ul{
+    overflow: hidden;
+    
+}
+
+#blue li{
+
+text-align: left;
+list-style-type: '\2714';
+font-size: 6vw;
+color: #005b4a;
+}
+
+
+
+
+
+#bowl{
+    width: 90%;
+    border-style: solid;
+    border-width: thin; 
+    margin: auto;
+    margin-top: 10%;
+    padding-bottom: 10%;
+
+
+}
+
+#bowl img{
+    width: 100%;
+  
+   border-style: solid;
+   border-width: thin;
+border-left: transparent;
+border-top: transparent;
+border-right: transparent;
+padding: 0;
+}
+
+
+
+#client{
+    text-align: center;
+    color: #2c2b2b;
+    font-size: 10vw;
+    margin-top: 15%;
+    font-family: Lora-Med;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    border-style: solid;
+   border-width: thin;
+border-left: transparent;
+border-top: transparent;
+border-right: transparent;
+padding-bottom: 5%;
+
+}
+
+
+#testimony{
+    margin-top: 15%;
+ padding-top: 5%;
+ padding-bottom: 10%;
+    background-color: #c86561;
+}
+
+#test{
+   
+ padding-top: 5%;
+ padding-bottom: 15%;
+    background-color: #dbe9d9;
+}
+
+
+
+#who img{
+
+    width: 90%;
+    
+}
+
+
+
+
+/*--------------------------------------------------------FAQ---------------------------------------------------------*/
+
+
+
+    
+    
+    #wrap{
+        background-color: #fad988;
+        overflow: hidden;
+       padding-bottom: 20%;
+       margin: auto;
+       margin-top: 7%;
+        text-align: center;
+        
+    }
+
+   
+    
+ 
+    
+    
+    #call{
+        list-style: none;
+        text-align: left;
+        font-size: 5vw;
+        font-family: ralls;
+        margin-left: 5%;
+        display: inline;
+      
+    }
+    
+    #accordion{
+        position: relative;
+        width: 90%;
+       margin: auto;
+       background-color: #fad988;
+        border-style: solid;
+        border-color: #005b4a;
+     border-left: transparent;
+     border-top: transparent;
+     border-right: transparent;
+    
+     
+    }
+    
+    
+    
+    #accordion ion-icon{
+        display: inline-block;
+        margin-top: 50%;
+        font-size: 8vw;
+        color: #F8F9F5;
+    }
+    
+    #big{
+     margin: auto;
+        float: left;
+        width: 80%;
+        text-align: left;
+        
+    
+      
+    }
+
+    #whole{
+        margin: auto;
+           float: left;
+           width: 80%;
+           text-align: left;
+           margin-left: 5%;
+           
+           
+         
+       }
+
+
+    #whole p{
+      
+        color: #c86561;
+    }
+    
+    #small{
+    margin: auto;
+     float: right;
+    
+    
+    
+    
+    }
+    
+    #change{
+        padding-top: 1%;
+        background-color: #fbfcfa;
+        padding-bottom: 15%;
+       
+    }
+
+    #bold{
+        padding-top: 20%;
+       
+        padding-bottom: 15%;
+       
+    }
+
+
+
+    #thun{
+        padding-bottom: 15%;
+       padding-top: 1%;
+        background-color: #fad988;
+    }
+    
+
+    #space{
+        margin-top: 10%;
+    }
+    
+
+    #grow button{
+        margin-top: 5%;
+        background-color: #c86561;
+        border: none;
+        width: 50%;
+    }
+  
+    #open{
+        padding-top: 5%;
+        padding-bottom: 15%;
+    }
+
+
+    #high{
+        border-style: solid;
+        border-left: transparent;
+        border-right: transparent;
+        border-top: transparent;
+        border-width: 2vw;
+        border-color: #fad988;
+        color: #2c2b2b;
+        
+        background-color: transparent;
+        
+    }
+
+
+    /*--------------------------------------------------------------------BLOG-------------------------------------------------*/
+
+
+    #el{
+        padding-top: 5%;
+    }
+
+
+
+    /*--------------------------------------------------Footer-------------------------------------------------*/
+
+    #footing{
+        margin: auto;
+            background-color: #efefed;
+            padding-top: 5%;
+            padding-bottom: 5%;
+            color: white;
+           
+        }
+        
+        #footing p{
+            margin-left: 0;
+        }
+        
+        #footing li{
+        
+            list-style: none;
+          
+        
+        }
+        
+        #ul-2{
+            margin-top: 15%;
+           
+        }
+        
+        #ul-2 ion-icon{
+            font-size: 6vw;
+             margin: auto;
+             cursor: pointer;
+           
+        }
+        
+        #copy{
+            margin: auto;
+          margin-top: 10%;
+          margin-right: 10%;
+            border-style: solid;
+            border-width: thin;
+         border-left: transparent;
+         border-bottom: transparent;
+         border-right: transparent;
+         color: #000000;
+        }
+
+        #sub-el{
+            color: #000000;
+            font-size: 5.5vw;
+            font-family: Lora-Bold;
+        }
+
+        /*-----------------------------------------------contact ----------------------------------------------*/
+
+        #contact{
+            margin: 5%;
+            margin-top: 10%;
+            
+        
+         
+         
+        }
+
+
+        #calling-el{
+            padding: 2%;
+            padding-top: 30%;
+            text-align: center;
+         padding-bottom: 10%;
+         background-color: #F8F9F5;
+         
+        }
+
+
+        #bore{
+            width: 100%;
+         
+            margin: auto;
+            margin-top: 10%;
+           
+        }
+
+
+
+        
+#names{
+    width: 90%;
+    display: inline;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    
+}
+
+
+
+
+#email{
+    width: 90%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+ 
+}
+
+#contact{
+    margin: 5%;
+    margin-top: 10%;
+   
+ 
+ 
+ 
+}
+
+
+#label{
+
+    font-size: 5vw;
+    font-family: Rubik-Reg;
+    
+    text-align: left;
+    
+    margin-bottom: 0;
+    margin-left: 4%;
+    
+}
+
+#styling{
+    width: 40%;
+    position: relative;
+    width: 45%;
+    margin-top: 5%;
+   padding-bottom: 5%;
+   margin-left: 3%;
+   float: left;
+  
+}
+
+#styling-2{
+    width: 90%;
+    position: relative;
+    width: 45%;
+    margin-top: 5%;
+   padding-bottom: 5%;
+   margin-left: 3%;
+   float: left;
+  
+}
+
+textarea{
+    max-width: 90%;
+    min-width: 90%;
+    padding-bottom: 10%;
+    padding-top: 5%;
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    font-size: 3.5vw;
+    font-family: pops;
+}
+
+input{
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    margin-bottom: 5%;
+    font-size: 3.5vw;
+    font-family: pops;
+}
+
+#submit{
+    margin: auto;
+     background-color: #c86561;
+     border-style: none;
+     cursor: pointer;
+  width: 60%;
+  color: white;
+  margin: 5%;
+}
+
+
+/*----------------------------------------- menu ------------------------------------------------------------------*/
+
+#ex ion-icon{
+    position: absolute;
+   top: 25%;
+   right: 10%;
+   
+    font-size:10vw;
+    text-align: center;
+    
+    
+}
+
+
+#burger{
+    position: absolute;
+    margin: auto;
+    background-color: #F8F9F5;
+    height: 100vh;
+    text-align: center;
+    overflow: auto;
+    width: 100%;
+  
+   
+    
+}
+
+
+#burger ul{
+    position: relative;
+    padding-top: 20%;
+    list-style: none;
+    margin: auto;
+    margin-right: 10%;
+
+}
+
+#burger li{
+    
+    font-family: Rubik-Reg;
+    margin-top: 5%;
+    
+   
+}
+
+#scroll{
+    margin: auto;
+    height: 75vh;
+    overflow: auto;
+}
+
+#forming{
+    margin-top: 45%;
+}
+
+table{
+    margin: auto;
+    width: 90%;
+    
+  
+   
+    
+}
+
+table select{
+   
+    padding: 10%;
+    border-style: solid;
+    border-width: thin;
+}
+
+
+table span{
+    background-color: transparent;
+    color: #c86561;
+}
+
+td{
+    padding: 5%;
+  
+    font-family: Rubik-Reg;
+    
+   
+}
+
+td input{
+    padding: 10%;
+   
+}
+
+
+#preloader{
+    background-color: #F8F9F5;
+    height: 100vh;
+    width: 100%;
+    z-index: 100;
+    margin: auto;
+    position: fixed;
+    text-align: center;
+    padding-top: 60%;
+    z-index: 2;
+    
+  }
+
+
+  #name-el-1{
+    font-size: 20vw;
+    font-family: Satisfy-Regular;
+    color: #2c2b2b;
+    margin: auto;
+    text-align: center;
+    margin-top: 20%;
+}
+
+#rat{
+    font-size: 20vw;
+    font-family: Satisfy-Regular;
+    color: #2c2b2b;
+    margin: auto;
+    text-align: center;
+    margin-top: 20%;
+}
+        
+
+
+  }
+
+
+
+  @media only screen and (max-width: 499px) {
+
+    #over{
+        margin: 0;
+        padding: 0;
+    }
+
+  }
+
+
+
+  @media only screen and (min-width: 500px) {
+
+#home{
+    padding-top: 15%;
+    padding-bottom: 10%;
+    margin-top: 0;
+}
+
+
+#name-el-1{
+    margin-top: 5%;
+    font-size: 10vw;
+    font-family: Satisfy-Regular;
+}
+
+#rat{
+    margin-top: 5%;
+    font-size: 5vw;
+    font-family: Satisfy-Regular;
+}
+
+
+
+#header ion-icon{
+    top: 20%;
+     font-size:6vw;  
+ }
+
+#first{
+    padding-top: 15%;
+    margin-bottom: 65%;
+    margin-top: 0;
+}
+
+#home-el{
+    padding-top: 8%;
+    padding-bottom: 13%;
+}
+
+
+
+    #home img{
+        position: relative;
+        width: 50%;
+        margin-top: 0;
+        margin-left: 5%;
+        margin-right: 5%;
+        float: right;
+        margin-top: 5%;
+    }
+
+    #first img{
+        position: relative;
+        width: 45%;
+        margin-left: 5%;
+        margin-right: 5%;
+        float: right;
+        margin-top: 5%;
+    }
+
+ 
+
+    #near{
+        margin-top: 5%;
+        width: 40%;
+       float: left;
+    }
+
+    #home-el img{
+        position: relative;
+        overflow: auto;
+        width: 50%;
+        margin-top: 0;
+        margin-left: 5%;
+        margin-right: 5%;
+       float: left;
+        
+    }
+
+    #trend{
+        font-size: 4vw;
+        text-align: center;
+        margin: auto;
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        
+    }
+
+    #troll{
+        font-size: 4vw;
+        text-align: center;
+        margin: auto;
+        margin-top: 5%;
+        margin-left: 10%;
+        margin-right: 0;
+        
+    }
+
+    #trending{
+        font-size: 4vw;
+        text-align: center;
+        margin: auto;
+        margin-top: 8%;
+        margin-left: 10%;
+        margin-right: 10%;
+        
+    }
+
+    #follow{
+        margin: auto;
+        margin-top: 3%;
+      margin-left: 5%;
+      margin-right: 5%;
+        font-size: 2vw;
+        overflow: hidden;
+    }
+
+    #fall{
+        margin: auto;
+        margin-top: 3%;
+      margin-left: 10%;
+      margin-right: 0;
+        font-size: 2vw;
+        overflow: hidden;
+    }
+
+    #sub{
+        margin: auto;
+        margin-top: 3%;
+      margin-left: 15%;
+      margin-right: 15%;
+        font-size: 2vw;
+        overflow: hidden;
+    }
+
+    #sat{
+        margin: auto;
+        margin-top: 3%;
+      margin-left: 15%;
+      margin-right: 15%;
+        font-size: 2.5vw;
+        overflow: hidden;
+    }
+
+    #oil{
+        margin: auto;
+        margin-top: 3%;
+      margin-left: 15%;
+      margin-right: 15%;
+        font-size: 2vw;
+        overflow: hidden;
+        padding-bottom: 5%;
+    }
+
+    #rob{
+        margin: auto;
+        margin-top: 3%;
+      margin-left: 15%;
+      margin-right: 15%;
+        font-size: 3vw;
+        overflow: hidden;
+    }
+
+    #marine{
+        margin: auto;
+        margin-top: 5%;
+      margin-left: 15%;
+      margin-right: 15%;
+      padding-top: 3%;
+      padding-bottom: 3%;
+        font-size: 2vw;
+        margin-bottom: 5%;
+        overflow: hidden;
+    }
+
+    #marine li{
+
+        margin-left: -5%;
+    }
+
+  
+
+    #marine li p{
+    padding-left: 0;
+    margin-left: 0;
+  
+        color: #000000;
+    }
+    
+
+    #super{
+        margin: auto;
+        margin-top: 3%;
+        text-align: left;
+      margin-left: 15%;
+      margin-right: 15%;
+        font-size: 2vw;
+        overflow: hidden;
+    }
+
+    #support{
+        margin: auto;
+        margin-top: 3%;
+      margin-left: 10%;
+      margin-right: 10%;
+        font-size: 2vw;
+        overflow: hidden;
+    }
+
+   
+
+    #follow-el{
+        
+        font-size: 2vw;
+        
+    }
+
+    #home button{
+        margin: auto;
+        margin-top: 4%;
+        margin-left: 5%;
+        width: 20%;
+        background-color: #c86561;
+        border: none;
+        
+    }
+
+    #home-el button{
+    margin: auto;
+        margin-top: 4%;
+        margin-right: 10%;
+        width: 25%;
+        background-color: #c86561;
+        border: none;
+        float: right;
+        margin-bottom: 5%;
+        
+    }
+
+    #grow button{
+        margin: auto;
+            margin-top: 4%;
+            margin-right: 15%;
+            width: 25%;
+            background-color: #c86561;
+            border: none;
+            float: right;
+            margin-bottom: 5%;
+            
+        }
+
+    #hommie button{
+        width: 25%;
+    }
+
+    
+    #house button{
+        margin: auto;
+        width: 25%;
+        margin-top: 5%;
+        margin-right: 0;
+    }
+
+    #hommie{
+        background-color: #F8F9F5;
+       margin: auto;
+       text-align: center;
+       padding-bottom: 5%;
+    }
+
+
+
+    #logo{
+        font-size: 3vw;
+        
+    }
+
+
+
+/*-----------------------------------Section 2---------------------------------------------------------------*/
+    
+#green{
+    overflow: hidden;
+    text-align: center;
+    padding-top: 5%;
+    background-color: #dbe9d9;
+    padding-bottom: 10%;
+}
+
+#grow{
+    overflow: hidden;
+    text-align: center;
+    padding-top: 5%;
+    
+    padding-bottom: 5%;
+}
+
+#grew{
+    overflow: hidden;
+    text-align: center;
+    padding-top: 3%;
+    
+    padding-bottom: 10%;
+}
+
+#growth{
+    overflow: hidden;
+    text-align: center;
+    padding-top: 3%;
+    
+    padding-bottom: 10%;
+}
+
+#measure{
+    margin: auto;
+    width: 45%;
+    float: right;
+    display: inline;
+    margin-top: 5%;
+    
+   margin-right: 5%;
+  
+}
+
+#green img{
+
+    position: relative;
+        width: 40%;
+        margin-top: 0;
+        margin-left: 5%;
+        margin-right: 5%;
+       float: left;
+       
+    
+}
+
+#grow img{
+
+    position: relative;
+        width: 40%;
+        margin-top: 8%;
+        margin-left: 5%;
+        margin-right: 5%;
+       float: left;
+       
+    
+}
+
+#grew img{
+
+    position: relative;
+        width: 40%;
+        margin-top: 8%;
+        margin-left: 5%;
+        margin-right: 5%;
+       float: left;
+       
+    
+}
+
+#growth img{
+
+    position: relative;
+        width: 40%;
+        margin-top: 8%;
+        margin-left: 5%;
+        margin-right: 5%;
+       float: right;
+       
+    
+}
+
+
+#fellow{
+   margin-top: 15%;
+    
+    font-size: 3vw;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
+}
+
+#second{
+    
+     
+     font-size: 3vw;
+     margin-left: 5%;
+     margin-right: 5%;
+     text-align: left;
+ }
+
+
+#green ul{
+    
+    overflow: hidden;
+   margin: auto;
+    text-align: center;
+  
+}
+
+#separate{
+    width: 60%;
+    float: left;
+}
+
+#sep{
+    width: 45%;
+    float: left;
+}
+
+#split{
+    padding-right: 0;
+    margin-right: 0;
+    width: 40%;
+    float: right;
+}
+
+#split li{
+    padding-top: 2%;
+}
+
+#spl{
+    padding-right: 0;
+    margin-right: 0;
+    width: 45%;
+    float: right;
+}
+
+
+
+
+
+
+
+#green li{
+list-style: none;
+    text-align: left;
+margin-bottom: 10%;
+ 
+}
+
+#green ion-icon{
+    font-size: 2.5vw;
+    margin-right: 5%;
+    
+    color: #c86561;
+}
+
+#blue{
+    margin: auto;
+    width: 75%;
+}
+
+#blue li{
+
+    text-align: left;
+    list-style-type: '\2714';
+    font-size: 2.5vw;
+    color: #005b4a;
+    }
+
+
+#align{
+    margin: auto;
+    text-align: center;
+}
+
+
+#bowl{
+    margin: auto;
+    position: relative;
+    width: 40%;
+    height: auto;
+    text-align: left;
+    display:inline-table;
+    margin-top: 5%;
+   padding-bottom: 0%;
+   margin-left: 2%;
+   margin-right: 2%;
+   height: 78vw;
+  
+}
+
+#bowl img{
+    width: 100%;
+height: 33vw;
+   border-style: solid;
+   border-width: thin;
+border-left: transparent;
+border-top: transparent;
+border-right: transparent;
+padding: 0;
+}
+
+
+
+#client{
+    margin-top: 8%;
+ 
+    font-size: 4vw;
+    padding-bottom: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+ 
+}
+
+
+#testimony{
+    margin-top: 10%;
+ padding-top: 1%;
+ padding-bottom: 8%;
+    background-color: #c86561;
+}
+
+#test{
+  
+ padding-top: 1%;
+ padding-bottom: 10%;
+    
+}
+
+
+
+
+
+/*--------------------------------------------------FAQ------------------------------------------------------------*/
+
+
+#wrap{
+ 
+    overflow: hidden;
+    width: 100%;
+   padding-bottom: 10%;
+    
+    
+}
+
+
+
+
+
+#accordion{
+    position: relative;
+    width: 60%;
+  
+  
+    background-color: #fad988;
+
+
+
+ 
+}
+
+#accordion ion-icon{
+    font-size: 4vw;
+   margin-top: 0;
+   
+}
+
+
+#big{
+    margin: auto;
+       float: left;
+      margin-left: -5%;
+       text-align: left;
+       
+   }
+
+#whole{
+    margin: auto;
+       float: left;
+      margin-left: 8%;
+       text-align: left;
+       
+     
+   }
+
+   
+   #small{
+   margin: auto;
+    float: right;
+    
+   
+   
+   }
+
+   #wrapper{
+    margin-top: 5%;
+   }
+
+
+  /*--------------------------------------------------------ABOUT------------------------------------------------------*/
+   
+   #change{
+    margin-top: 50%;
+  padding-bottom: 10%;
+    padding-top: 1%;
+    background-color: #fbfcfa;
+}
+
+#bold{
+   
+  padding-bottom: 10%;
+    padding-top: 10%;
+  
+}
+
+
+
+#thun{
+    padding-bottom: 10%;
+    padding-top: 1%;
+    background-color: #fad988;
+}
+
+
+#open{
+    padding-top: 1%;
+    padding-bottom: 10%;
+}
+
+
+#high{
+    border-width: 1.5vw;
+    
+}
+
+
+/*--------------------------------------------------------------------BLOG----------------------------------------*/
+
+#el{
+    margin: auto;
+    text-align: left;
+    width: 80%;
+    padding-left: 0;
+    padding-top: 5%;
+   
+}
+
+
+
+/*-----------------------------------------------------------Footer----------------------------------------------*/
+
+
+#footing ul{
+
+    margin-top: 5%;
+
+}
+
+#ul-1{
+    display: inline-block;
+    width: 35%;
+   
+}
+
+#ul-2{
+    display: inline-block;
+ 
+   margin-top: 0;
+  width: 25%;
+  
+}
+
+#ul-3{
+    position: absolute;
+    margin: auto;
+   margin-top: 1%;
+    display: inline-block;
+   margin-right: 5%;
+    width: 25%;
+ 
+  }
+
+#ul-2 ion-icon{
+    font-size: 3vw;
+    margin: auto;
+  
+}
+
+#copy{
+    margin: auto;
+    margin-top: 0;
+    margin-right: 5%;
+  
+}
+
+#footing{
+    padding: 2%;
+    
+}
+
+
+#sub-el{
+    color: #000000;
+    font-size: 2.5vw;
+    font-family: Lora-Bold;
+}
+
+
+
+/*-----------------------------------------------------Contact -------------------------------------------------*/
+
+
+#calling-el{
+    margin: auto;
+    overflow: hidden;
+    padding-top: 15%;
+    padding-bottom: 5%;
+    
+}
+
+#label{
+    margin-right: 5%;
+    font-size: 2vw;
+    
+}
+
+#contact{
+    position: relative;
+    width: 55%;
+    margin: auto;
+    
+  margin-top: 3%;
+ 
+
+}
+
+
+input{
+ 
+    font-size: 1.5vw;
+
+}
+
+textarea{
+
+    font-size: 1.5vw;
+
+}
+
+
+#names{
+    
+    padding-top: 4%;
+    padding-bottom: 4%;
+    
+}
+
+
+#email{
+   
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
+ 
+}
+
+
+#submit{
+    
+  width: 30%;
+  
+}
+
+
+/*---------------------------------------------------------------------------menu ---------------------------------------*/
+
+#ex ion-icon{
+       
+    top: 20%;
+    font-size: 6vw;
+    
+}
+
+
+#burger ul{
+    position: relative;
+    padding-top: 20%;
+    list-style: none;
+    margin: auto;
+    margin-right: 5%;
+
+}
+
+
+/*----------------------------------------------------------Shipment----------------------------------------------------------*/
+
+
+#forming{
+
+    margin: auto;
+    margin-top: 25%;
+
+   
+}
+
+
+table{
+    margin: auto;
+    width: 50%;
+   
+    
+}
+
+table select{
+   
+    padding: 5%;
+    border-style: solid;
+    border-width: thin;
+}
+
+
+table span{
+    background-color: transparent;
+    color: #c86561;
+}
+
+td{
+    padding: 2%;
+  
+    font-family: Rubik-Reg;
+    
+   
+}
+
+td input{
+    padding: 5%;
+   
+}
+
+
+
+
+
+
+
+  }
+
+
+
+  @media only screen and (max-width: 999px) {
+
+    #content-2 ul{
+        display: none;
+    }
+
+    #over{
+        margin-bottom: 20%;
+        margin-top: 20%;
+    }
+
+   
+
+}
+
+
+
+  @media only screen and (min-width: 1000px) {
+
+    #home{
+        padding-top: 10%;
+        padding-bottom: 7%;
+    }
+
+  
+
+    #content-1{
+  
+        display: inline;
+        float: left;
+     
+        width: 40%;
+        
+    }
+
+    #content-2{
+       
+        display: inline; 
+        float: right;
+       
+        width: 40%;
+        
+         
+        
+    }
+
+    #content-2 ul{
+      margin: auto;
+      margin-top: 4.5%;
+       
+    }
+
+    #header li{
+        width: 100%;
+        display: inline;
+        margin: auto;
+        margin-bottom: 0.5%;
+        padding-left: 2%;
+        padding-right: 2%;
+        overflow: hidden;
+      
+      }
+    
+      #header li:hover{
+        border-style: solid;
+        border-left: transparent;
+        border-right: transparent;
+        border-top: transparent;
+        border-width: 0.5vw;
+        border-color: #fad988;
+        color: #2c2b2b;
+        
+        
+        background-color: transparent;
+       
+        
+       
+      }
+    
+
+    #header ion-icon{
+       display: none;
+     }
+
+
+    #first{
+        margin-bottom: 45%;
+        padding-top: 7%;
+        padding-bottom: 7%;
+    }
+
+    #home-el{
+        padding-top: 5%;
+        padding-bottom: 7%;
+    }
+
+   
+
+#home img{
+    width: 45%;
+    margin-right: 10%;
+}
+
+#first img{
+    width: 40%;
+    margin-right: 10%;
+}
+
+
+#home-el img{
+    width: 45%;
+    margin-right: 5%;
+}
+
+
+#trend{
+    font-size: 3vw;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+#troll{
+    font-size: 3vw;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+
+#trending{
+    margin-top: 5%;
+    font-size: 3vw;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+}
+
+#follow{
+    margin-top: 2%;
+ margin-left: 10%;
+ margin-right: 10%;
+    font-size: 1.3vw;
+    overflow: hidden;
+}
+
+#fall{
+    margin-top: 2%;
+ margin-left: 5%;
+ margin-right: 0;
+    font-size: 1.3vw;
+    overflow: hidden;
+}
+
+#sub{
+    margin: auto;
+    margin-top: 2%;
+ width: 60%;
+    font-size: 1.3vw;
+    overflow: hidden;
+}
+
+#sat{
+    margin: auto;
+    margin-top: 2%;
+ width: 60%;
+    font-size: 1.8vw;
+    overflow: hidden;
+}
+
+#oil{
+    margin: auto;
+    margin-top: 2%;
+ width: 60%;
+    font-size: 1.3vw;
+    overflow: hidden;
+    padding-bottom: 3%;
+}
+
+#rob{
+    margin: auto;
+    margin-top: 2%;
+ width: 60%;
+    font-size: 2.3vw;
+    overflow: hidden;
+}
+
+#marine{
+    margin: auto;
+    margin-top: 2%;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 1.3vw;
+    overflow: hidden;
+}
+
+#marine li{
+margin: auto;
+    margin-left: -7%;
+}
+
+
+
+#marine li p{
+padding-left: 0;
+margin-left: 0;
+
+    
+}
+
+#super{
+    margin-top: 2%;
+ margin-left: 20%;
+ margin-right: 20%;
+    font-size: 1.3vw;
+    overflow: hidden;
+}
+
+#support{
+    margin-top: 2%;
+ margin-left: 15%;
+ margin-right: 15%;
+    font-size: 1.3vw;
+    overflow: hidden;
+}
+
+
+
+#follow-el{
+    
+    font-size: 1.3vw;
+    
+}
+
+#home button{
+    margin-top: 3%;
+    margin-left: 10%;
+    width: 15%;
+       
+}
+
+#home-el button{
+   margin: auto;
+    margin-top: 3%;
+    
+    width: 20%;
+    margin-left: 0; 
+    margin-right: 20%;
+}
+
+#grow button{
+    margin: auto;
+     margin-top: 3%;
+     
+     width: 20%;
+     margin-left: 0; 
+     margin-right: 22%;
+ }
+
+
+
+#hommie button{
+    width: 20%;
+}
+
+#house button{
+    width: 20%;
+    margin-right: 10%;
+}
+
+#hommie{
+    background-color: #F8F9F5;
+   margin: auto;
+   text-align: center;
+   padding-bottom: 2%;
+}
+
+
+#logo{
+    font-size: 1.5vw;
+    
+}
+
+
+#green{
+    overflow: hidden;
+    text-align: center;
+    padding-top: 2%;
+    background-color: #dbe9d9;
+    padding-bottom: 7%;
+}
+
+#grow{
+    overflow: hidden;
+    text-align: center;
+    padding-top: 2%;
+   
+    padding-bottom: 8%;
+}
+
+#grew{
+    overflow: hidden;
+    text-align: center;
+    padding-top: 1%;
+   
+    padding-bottom: 7%;
+}
+
+#growth{
+    overflow: hidden;
+    text-align: center;
+    padding-top: 0;
+   
+    padding-bottom: 8%;
+}
+
+#grow img{
+    width: 35%;
+   margin-top: 5%;
+}
+
+#grew img{
+    width: 35%;
+   margin-top: 5%;
+}
+
+#growth img{
+    width: 35%;
+   margin-top: 5%;
+}
+
+
+#green ion-icon{
+    font-size: 2vw;
+    
+}
+
+
+#blue{
+    margin: auto;
+    margin-top: 2%;
+    width: 65%;
+}
+
+
+
+
+#fellow{
+   
+    
+     margin-right: 10%;
+     font-size: 2vw;
+    
+ }
+
+ #second{
+   
+    margin-left: 10%;
+    font-size: 2vw;
+   
+}
+
+ #measure{
+    
+    margin: auto;
+    margin-top: 5%;
+    width: 50%;
+}
+
+
+
+#bowl{
+    width: 30%;
+    height: 55vw
+}
+
+#bowl img{
+    height: 25vw;
+}
+
+
+#client{
+    padding-bottom: 3%;
+      margin-top: 5%;  
+    font-size: 3vw;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+#testimony{
+    margin-top: 8%;
+ padding-top: 1%;
+ padding-bottom: 5%;
+    background-color: #c86561;
+}
+
+#test{
+    
+ padding-top: 1%;
+ padding-bottom: 7%;
+    
+}
+
+
+
+/*-----------------------------------------------------------FAQ--------------------------------------------*/
+
+
+#wrap{
+   margin-top: 13%;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 3%;
+   padding-bottom: 7%;
+ 
+    
+    
+}
+
+
+
+
+
+
+#accordion{
+    position: relative;
+   width: 55%;
+   padding-bottom: 1%;
+
+
+}
+
+
+#accordion ion-icon{
+    margin-top: 50%;
+    font-size: 2vw;
+   
+}
+
+
+#big{
+ margin-top: 1%;
+       float: left;
+      margin-left: -8%;
+       text-align: left;
+       
+
+     
+   }
+
+   #whole{
+ 
+       float: left;
+      margin-left: 7%;
+       text-align: left;
+       
+
+     
+   }
+
+   #wrapper{
+    margin-top: 3%;
+   }
+
+   #near{
+    margin-top: 5%;
+    
+   margin-left: 5%;
+    width: 40%;
+   float: left;
+}
+
+
+/*------------------------------------------------------------ABOUT------------------------------------------------------------*/
+
+#change{
+    margin-top: 0;
+ padding-bottom: 7%;
+    
+}
+
+#bold{
+    padding-top: 5%;
+    margin-top: 0;
+ padding-bottom: 7%;
+    
+}
+
+
+#thun{
+    padding-bottom: 7%;
+    padding-top: 1%;
+    background-color: #fad988;
+}
+
+
+#space{
+    margin-top: 8%;
+}
+
+#open{
+    padding-bottom: 7%;
+}
+
+
+#high{
+    border-width: 1vw;
+    
+}
+
+
+
+/*--------------------------------------------------------------------BLOG----------------------------------------*/
+
+#el{
+    margin: auto;
+    text-align: left;
+    width: 75%;
+    padding-left: 0;
+    padding-top: 5%;
+   
+}
+
+
+/*-------------------------------------------------------------------Footer-----------------------------------------*/
+
+#ul-2 ion-icon{
+    margin: auto;
+    font-size: 2vw;
+  
+  
+}
+
+
+
+#sub-el{
+    color: #000000;
+    font-size: 1.5vw;
+    font-family: Lora-Bold;
+}
+
+
+#label{
+    
+    font-size: 1.3vw;
+    
+}
+
+#calling-el{
+    
+    padding-top: 5%;
+   
+    
+}
+
+
+/*-------------------------------------------------------------menu ----------------------------------------------*/
+
+
+#burger{
+    display: none;
+    
+
+}
+
+
+
+/*----------------------------------------------------------Shipment----------------------------------------------------------*/
+
+#forming{
+    margin: auto;
+    margin-top: 15%;
+    margin-bottom: 3%;
+    width: 50%;
+  
+}
+
+
+
+table{
+    margin: auto;
+    width: 80%;
+   
+    
+}
+
+table select{
+   width: 47%;
+    padding: 2%;
+    border-style: solid;
+    border-width: thin;
+    margin-bottom: 5%;
+}
+
+
+table span{
+    background-color: transparent;
+    color: #c86561;
+}
+
+td{
+    padding: 1%;
+  
+    font-family: Rubik-Reg;
+    
+   
+}
+
+td input{
+    padding: 2%;
+    
+   
+}
+
+
+/*-------------------------------------------------------Preloader-----------------------------------------------------------------*/
+
+#preloader{
+    margin: auto;
+      text-align: center;
+      
+      padding: 30%;
+      padding-top: 20%;
+    }
+
+   
+    #name-el-1{
+        font-size: 5vw;
+        font-family: Satisfy-Regular;
+    }
+
+    #rat{
+        font-size: 3vw;
+        font-family: Satisfy-Regular;
+    }
+
+
+    
+
+  }
+
+
