@@ -1253,6 +1253,7 @@ td input{
         margin-top: 4%;
         margin-right: 10%;
         width: 25%;
+        padding: 1%;
         background-color: #c86561;
         border: none;
         float: right;
@@ -2109,7 +2110,7 @@ margin-left: 0;
 #home-el button{
    margin: auto;
     margin-top: 3%;
-    
+    padding: 0.5%;
     width: 20%;
     margin-left: 0; 
     margin-right: 20%;
