@@ -666,7 +666,8 @@ padding-bottom: 5%;
         margin-top: 5%;
         background-color: #c86561;
         border: none;
-        width: 50%;
+        width: 60%;
+        padding: 1%;
     }
   
     #open{
@@ -1272,6 +1273,7 @@ td input{
             border: none;
             float: right;
             margin-bottom: 5%;
+        padding: 0;
             
         }
 
