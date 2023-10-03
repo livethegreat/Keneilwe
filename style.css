@@ -320,7 +320,8 @@ span{
 #home button{
     margin-top: 5%;
     margin-bottom: 5%;
-    width: 50%;
+    width: 60%;
+    padding: 1%;
     background-color: #c86561;
     border: none;
     
@@ -1243,6 +1244,7 @@ td input{
         margin-top: 4%;
         margin-left: 5%;
         width: 20%;
+        padding: 0;
         background-color: #c86561;
         border: none;
         
