@@ -147,8 +147,10 @@ a{
 
 #home img{
   
-    margin-top: 10%;
+    margin-top: -10%;
     width: 90%;
+    border-style: solid;
+    border-width: thin;
 }
 
 #first img{
@@ -235,7 +237,7 @@ span{
 
 #sat{
     font-family: Rubik-Reg;
-    font-size: 6vw;
+    font-size: 5.5vw;
     margin-left: 5%;
     margin-right: 5%;
     color: #000000;
@@ -934,11 +936,13 @@ input{
     margin: auto;
     margin-top: 25%;
     
+  
 }
 
 table{
     margin: auto;
     width: 70%;
+   
     margin-left: 5%;
     
   
@@ -1163,7 +1167,7 @@ td input{
         margin-top: 3%;
       margin-left: 15%;
       margin-right: 15%;
-        font-size: 3vw;
+        font-size: 2.5vw;
         overflow: hidden;
     }
 
@@ -1273,7 +1277,7 @@ td input{
             border: none;
             float: right;
             margin-bottom: 5%;
-        padding: 0;
+            padding: 0;
             
         }
 
@@ -1888,8 +1892,10 @@ td input{
   @media only screen and (min-width: 1000px) {
 
     #home{
-        padding-top: 10%;
+        margin: auto;
+        padding-top: 12%;
         padding-bottom: 7%;
+        text-align: center;
     }
 
   
@@ -1967,13 +1973,22 @@ td input{
    
 
 #home img{
-    width: 45%;
-    margin-right: 10%;
+   margin: auto;
+    width: 40%;
+    margin-right: 15%;
+    margin-left: 5%;
+    
 }
+
+#side{
+    margin-left: 5%;
+}
+
 
 #first img{
     width: 40%;
     margin-right: 10%;
+   
 }
 
 
@@ -2108,6 +2123,7 @@ margin-left: 0;
     margin-top: 3%;
     margin-left: 10%;
     width: 15%;
+   
        
 }
 
