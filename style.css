@@ -1,4 +1,3 @@
-
 body,html{
     margin: 0;
     padding: 0;
@@ -147,10 +146,9 @@ a{
 
 #home img{
   
-    margin-top: -10%;
+    margin-top: -20%;
     width: 90%;
-    border-style: solid;
-    border-width: thin;
+   
 }
 
 #first img{
@@ -326,6 +324,7 @@ span{
     padding: 1%;
     background-color: #c86561;
     border: none;
+    cursor: pointer;
     
 }
 
@@ -336,6 +335,7 @@ span{
     padding: 2%;
     background-color: #c86561;
     border: none;
+    cursor: pointer;
     
 }
 
@@ -346,6 +346,7 @@ span{
     padding: 2%;
     background-color: #c86561;
     border: none;
+    cursor: pointer;
     
 }
 
@@ -355,6 +356,7 @@ span{
     width: 50%;
     background-color: #c86561;
     border: none;
+    cursor: pointer;
     
 }
 
@@ -563,6 +565,15 @@ padding-bottom: 5%;
     }
 
    
+        #wrap button{
+           
+            cursor: pointer;
+            
+        }
+    
+    
+
+   
     
  
     
@@ -670,6 +681,7 @@ padding-bottom: 5%;
         border: none;
         width: 60%;
         padding: 1%;
+        cursor: pointer;
     }
   
     #open{
@@ -729,9 +741,10 @@ padding-bottom: 5%;
         }
         
         #ul-2 ion-icon{
-            font-size: 6vw;
+            font-size: 8vw;
              margin: auto;
              cursor: pointer;
+             color: #2c2b2b;
            
         }
         
@@ -837,6 +850,53 @@ padding-bottom: 5%;
    float: left;
   
 }
+
+#check{
+    margin-top: 40%;
+    margin-bottom: -15%;
+}
+
+#stole{
+    width: 80%;
+    margin: auto;
+    
+    
+    
+}
+
+#stole p{
+ margin-left: -2%;
+}
+
+#stole select{
+    margin: auto;
+    padding: 5%;
+    width: 80%;
+    border-style: solid;
+    border-width: thin;
+   
+    
+}
+
+#stole button{ 
+    margin: auto;
+    width: 80%;
+    padding: 1%;
+   margin-top: 15%;
+   margin-bottom: 10%;
+   
+    margin-left: 10%;
+}
+
+
+#stole input{
+    padding: 5%;
+    width: 90%;
+}
+
+
+
+
 
 #styling-2{
     width: 90%;
@@ -1008,7 +1068,29 @@ td input{
     text-align: center;
     margin-top: 20%;
 }
-        
+
+
+/*----------------------------------------------------CHECKOUT PAGE----------------------------------------------*/
+
+#covered{
+    margin: auto;
+    text-align: center;
+    margin-top: 20%;
+    
+   
+}
+
+#covered img{
+    margin: auto;
+    
+    width: 90%;
+
+}
+      
+
+#sec{
+    margin-bottom: 30%;
+}
 
 
   }
@@ -1032,6 +1114,12 @@ td input{
     padding-top: 15%;
     padding-bottom: 10%;
     margin-top: 0;
+}
+
+
+#side{
+    margin-top: 10%;
+    margin-left: 5%;
 }
 
 
@@ -1070,11 +1158,10 @@ td input{
     #home img{
         position: relative;
         width: 50%;
-        margin-top: 0;
-        margin-left: 5%;
+        margin-left: 0%;
         margin-right: 5%;
         float: right;
-        margin-top: 5%;
+        margin-top: -2%;
     }
 
     #first img{
@@ -1252,6 +1339,7 @@ td input{
         padding: 0;
         background-color: #c86561;
         border: none;
+        cursor: pointer;
         
     }
 
@@ -1265,6 +1353,7 @@ td input{
         border: none;
         float: right;
         margin-bottom: 5%;
+        cursor: pointer;
         
     }
 
@@ -1278,12 +1367,14 @@ td input{
             float: right;
             margin-bottom: 5%;
             padding: 0;
+            cursor: pointer;
             
         }
 
     #hommie button{
         width: 35%;
         padding: 1%;
+        cursor: pointer;
     }
 
     
@@ -1292,6 +1383,7 @@ td input{
         width: 25%;
         margin-top: 5%;
         margin-right: 0;
+        cursor: pointer;
     }
 
     #hommie{
@@ -1315,6 +1407,7 @@ td input{
 #green{
     overflow: hidden;
     text-align: center;
+    margin-top: 5%;
     padding-top: 5%;
     background-color: #dbe9d9;
     padding-bottom: 10%;
@@ -1359,7 +1452,7 @@ td input{
 
     position: relative;
         width: 40%;
-        margin-top: 0;
+        margin-top: 5%;
         margin-left: 5%;
         margin-right: 5%;
        float: left;
@@ -1864,6 +1957,33 @@ td input{
 
 
 
+#right{
+    margin-top: -15%;
+    width: 40%;
+    display: inline-table;
+    float: right;
+    margin-right: 10%;
+   
+}
+
+#left{
+   
+    width: 40%;
+   display: inline-table;
+   margin-left: 10%;
+}
+
+
+
+#check{
+    margin-top: 20%;
+    margin-bottom: 10%;
+}
+
+
+#sec{
+    margin-bottom: 10%;
+}
 
 
 
@@ -1975,12 +2095,14 @@ td input{
 #home img{
    margin: auto;
     width: 40%;
-    margin-right: 15%;
+    margin-right: 10%;
     margin-left: 5%;
+    margin-top: -5%;
     
 }
 
 #side{
+    margin-top: 0;
     margin-left: 5%;
 }
 
@@ -2123,6 +2245,7 @@ margin-left: 0;
     margin-top: 3%;
     margin-left: 10%;
     width: 15%;
+    cursor: pointer;
    
        
 }
@@ -2134,6 +2257,7 @@ margin-left: 0;
     width: 20%;
     margin-left: 0; 
     margin-right: 20%;
+    cursor: pointer;
 }
 
 #grow button{
@@ -2143,6 +2267,7 @@ margin-left: 0;
      width: 20%;
      margin-left: 0; 
      margin-right: 22%;
+     cursor: pointer;
  }
 
 
@@ -2150,11 +2275,13 @@ margin-left: 0;
 #hommie button{
     width: 25%;
     padding: 0.5%;
+    cursor: pointer;
 }
 
 #house button{
     width: 20%;
     margin-right: 10%;
+    cursor: pointer;
 }
 
 #hommie{
@@ -2174,9 +2301,18 @@ margin-left: 0;
 #green{
     overflow: hidden;
     text-align: center;
+    margin-top: 8%;
     padding-top: 2%;
     background-color: #dbe9d9;
     padding-bottom: 7%;
+}
+
+#green img{
+
+    
+        margin-top: 3%;
+          
+    
 }
 
 #grow{
@@ -2261,6 +2397,7 @@ margin-left: 0;
 #bowl{
     width: 30%;
     height: 55vw
+   
 }
 
 #bowl img{
@@ -2503,6 +2640,9 @@ td input{
 }
 
 
+
+
+
 /*-------------------------------------------------------Preloader-----------------------------------------------------------------*/
 
 #preloader{
@@ -2525,7 +2665,76 @@ td input{
     }
 
 
+
+    #check{
+        margin-top: 15%;
+        margin-bottom: 2%;
+    }
+
+
+
+    #stole input{
+        padding: 2%;
+        width: 100%;
+    }
+
+
+    #stole select{
+        margin: auto;
+        padding: 2%;
+        width: 80%;
+        margin-left: -15%;
+        border-style: solid;
+        border-width: thin;
+       
+        
+    }
+
+
+    #right{
+        
+        margin-top: -10%;
+        width: 40%;
+        display: inline-table;
+        float: right;
+        margin-right: 15%;
+       
+    }
+
     
+    #left{
+        margin-top: 5%;
+        text-align: center;
+        width: 25%;
+        display: inline-table;
+    
+       
+       
+      
+       margin-left: 20%;
+      
+    }
+
+    #left input{
+        width: 100%;
+    }
+
+    
+
+    #stole button{ 
+        margin: auto;
+        width: 80%;
+        padding: 0;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        
+    }
+
+
+    #sec{
+        margin-bottom: 7%;
+    }
+   
 
   }
 
