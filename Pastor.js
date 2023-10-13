@@ -304,7 +304,7 @@ function FAQ2() {
            <a href="blog.html"><li id="sat" onclick="closing()"><p id="sat">Blog</li></a>
            <a href="contact.html"><li id="sat" onclick="closing()"><p id="sat">Contact</p></li></a> <br><br>
 
-           <div id="hommie"><a href="checkout.html"><button><p id="follow-el">Buy now</p></button></a></div>
+           <div id="hommie"><a href="checkout.html"><button><p id="follow-el">R260 | Buy Now</p></button></a></div>
            
            </ul></div>
 
@@ -345,5 +345,8 @@ function FAQ2() {
          
             
         }
+
+
+
 
 
